@@ -13,7 +13,7 @@ import os
 load_dotenv()
 api_key=os.getenv("YOUTUBE_API_KEY")
 
-#api_key="AIzaSyCcp49l_YL1lisFQqp10ay7xnT1oCSx0qo"
+
 youtube_analysis = SentimentResults(api_key)
 app = Flask(__name__)
 highlighter = HighlightComments(api_key=api_key)
