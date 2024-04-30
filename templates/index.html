@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <title>Youtube Comment Sentiment Analysis</title>
+    
+</head>
+
+<body>
+    <div class="page1">
+        <header>
+            <nav class="nav-container"> 
+                <ul>
+                    <li class="active">
+                        <a href="#">
+                            <i class="fa fa-home" id="icon" ></i>
+                        </a>
+                    </li>
+                    <span></span>
+                    <li>
+                        <a href="#page2">
+                            <i class="fa fa-user" id="icon"></i>
+                        </a>
+                    </li>
+                    <span></span>
+                      <li>
+                        <a href="#">
+                            <i class="fa fa-message" id="icon"></i>
+                        </a>
+                    </li>
+    
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="container1">
+              <div class="typing">
+                <h1 class="typewriter">YouTube Comments Sentiment Analysis..</h1>
+                
+              </div>
+              <p>
+                To enhance the community between the content creators and the users it is vital to take into consideration the demands and the point of views of the user hence, with the help of proper analysis insights can be gained.
+                Analyzing the sentiment of YouTube comments has become increasingly important due to its potential impact on content creators, viewers, and the platform itself.
+      
+                <ul class="features">
+                    <li>Historical Trend Analysis</li>
+                    <li>YouTube Transcript Summary</li>
+                    <li>Highlighting the comments with request</li>
+                </ul>
+    
+              </p>
+                <a href="#"><button>Explore</button></a>
+              
+            </div>
+            <div class="container2">
+                <img src="/static/Images/youtube-logo.png" alt="">
+            </div>
+        </main>
+
+    </div>
+
+    <div class="page2" id="page2">
+        <div class="user-profile">
+            <h2>User Profile</h2>
+            <div class="content">
+                <p>
+                    The content creators as well as the users can get the insights of any YouTube video with this web applications.
+                    To acquire the dashboard as a result one need to follow below simple steps.....
+                    <ul>
+                    <li>Open the video of which you want the insight</li>
+                    <li>In the video link the copy the characters after = symbol</li>
+                    <li>Paste the copied video id in the input field below </li>
+                </ul>
+                </p>
+            </div>
+          
+        </div>
+        <div class="url">
+            <form action="/process_input" method="post">
+                <label >YouTube Video_ID:</label>
+                <input type="text" name="query" placeholder="Enter video_id" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div id="includedContent">
+
+        </div>
+
+    <script src="/static/YCSA.js"></script>
+
+        <!--<div class="url">
+            <label for="fname" name="query">YouTube URL: </label>
+            <input type="text" class="url" id="url" name="query">
+            <button>Submit<span class="emoji1"></span></button>
+        </div>-->
+        
+    </div>
+  
+</body>
+</html>
+

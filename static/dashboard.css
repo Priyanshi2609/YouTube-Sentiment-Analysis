@@ -1,0 +1,224 @@
+body {
+    width: 100%;
+    height: 180vh;
+    background-image:linear-gradient(#3c1053, #030637);
+  }
+  .comments{
+    position: relative;
+    width: 27%;
+    height: 12rem;
+    margin-top: -1rem;
+    background-color: #f591cb;
+    margin-left: 3rem;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 16px;
+    overflow: auto;
+  }
+  .comments h1{
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+  }
+  .comments2{
+    width: 94%;
+    height:20rem;
+    background-color: #e8b4d2;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 16px;
+  }
+  .comments2 h2{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 1rem;
+  }
+  .comments2 p{
+    padding: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+.header{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+i{
+    height: 7rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: #f591cb;
+    margin-top: 0.7rem;
+   flex: 0 1 auto;
+}
+.videoname h3{
+    color: aliceblue;
+    margin-left: auto;
+  
+}
+hr{
+    height: 0.1rem;
+    width: 20rem;
+    margin-top: 2.2rem;
+    border: 1.5px dotted white;
+}
+.container-dashboard{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+}
+.dashboard{
+    width: 30%;
+    height: 90vh;
+    background-color: #ddd 0.5 ;
+    display: flex;
+    flex-direction: column;
+    border-radius: 24px;
+    margin: 1rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+.dashboard2{
+   width: 60%;
+   height: 90vh;
+   background-color: #ddd 0.2;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   align-items: center;
+}
+.image img{
+    height: 10rem;
+    width: 22rem;
+    padding: 1rem;
+    border:1px solid #ddd ;
+
+}
+ul{
+    list-style-type: none;
+}
+.section li{
+    color: #000;
+     padding-top: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-family: "Rubik", sans-serif; 
+    opacity: 0.9;
+}
+.section{
+    height: 4rem;
+    width: 20rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    background-color: #f591cb;
+    margin-left: -2.5rem;
+    opacity: 0.7;
+    
+}
+.section:hover{
+    background-color: #e8b4d2;
+    opacity: 1;
+}
+.line-graph{
+  width: 40rem;
+  height: 25rem;
+  box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.3);
+  
+}
+ #multilineChart{
+  padding: 1rem;
+  width: 30rem;
+  height: 15rem;
+}
+
+
+
+
+
+
+
+  .chart-heading {
+    font-family: "Rubik", sans-serif;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  .chart-container {
+    width: 200px;
+    margin: auto auto;
+  }
+  .bar-chart-container{
+    margin-top: 2rem;
+  }
+  .video {
+    font-family: "Rubik", sans-serif;
+    color: #000;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .bar-chart-container {
+    width: 60%;
+    margin: 20px auto;
+    box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.3);
+    margin-left: 2rem;
+  }
+  .nutrients-stats {
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+    align-items: center;
+    gap: 24px;
+    height: 25rem;
+    width: 15rem;
+    margin: 0 auto;
+    width: fit-content;
+    box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    padding: 8px 10px;
+    color: aliceblue;
+    transition: all 400ms ease;
+  }
+  .nutrients-stats:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 16px -7px rgba(0, 0, 0, 0.3);
+  }
+  .bar-chart-container:hover {
+    transform: scale(1.02);
+    transition: ease-in-out 1s;
+    box-shadow: 0 4px 16px -7px rgba(0, 0, 0, 0.3);
+  }
+  .nutrients-stats .details ul {
+    list-style: none;
+    padding: 0;
+  }
+  .nutrients-stats.details ul li {
+    font-size: 16px;
+    margin: 12px 0;
+    text-transform: uppercase;
+  }
+  .nutrients-stats.details .percentage {
+    font-weight: 500;
+    color: #e63946;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+  .contents {
+    display: flex;
+  }
+  .text {
+    font-family: "Rubik", sans-serif;
+    color: #000;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 0.6rem;
+  }
